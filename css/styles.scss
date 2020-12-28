@@ -3,7 +3,10 @@ $color-secondary: #5637dd;
 $color-pale:#cec8ff;
 $color-mid:#901cad;
 $color-dark:#60106b;
+$color-white:#FFFFFF;
 $color-black-transparent:rgba(0,0,0,0.5);
+
+
 $body-font:"Open Sans", sans-serif;
 $header-font:"Lobster", cursive;
 /* VARIABLES */
@@ -41,15 +44,15 @@ header {
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient($color-pale, $color-white);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin:0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD,$color-primary, #60106B);
-    color: white;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: $color-white;
 }
 
 .row-content {
@@ -58,7 +61,7 @@ footer {
     min-height: 200px;
 }
 .navbar{
-    background-color: #901CAD;
+    background-color: $color-mid;
 }
 .tab-content{
     border: 1px solid#DDD;  /* gives a border around each tab content panel */
@@ -68,11 +71,11 @@ footer {
 #loginBtn:hover {cursor: pointer;}
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $color-black-transparent;
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid $color-secondary;
 }
 #carouselButton {
     position: absolute;
@@ -83,11 +86,11 @@ footer {
 
 
 #registrationModal {
-    .modal-header{background-color:$color-teal; color:white;}
+    .modal-header{background-color:$color-teal; color:$color-white;}
 }
 
 #loginModal {
-    .modal-header{background-color:$color-mid; color:white;}
+    .modal-header{background-color:$color-mid; color:$color-white;}
 }
 
 
