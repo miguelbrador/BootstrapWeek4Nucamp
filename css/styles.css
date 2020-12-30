@@ -56,14 +56,12 @@ footer {
 #carouselButton {
   position: absolute;
   right: 0;
-  bottom: 0; 
-  z-index: 100;
-}
+  bottom: 0; }
 
-#registrationModal .modal-header {
+#reserveButton .modal-header {
   background-color: #17A2B8;
   color: #FFFFFF; }
 
-#loginModal .modal-header {
+#loginButton .modal-header {
   background-color: #901cad;
   color: #FFFFFF; }

@@ -11,18 +11,22 @@ $(function() {
            $("#carouselButton").children("i").addClass("fa-pause");
        }
     });
+});
 
+ 
+  
+
+ 
+$(document).ready(function(){
+    $(".btn").click(function(){
+        $("#reserveButton").modal('show');
+    });
 });
 
 
-function OpenReserve()
-{
-    $('#registrationModal').modal('show')
-}
 
-
-
-function OpenLogin()
-{
-    $('#loginModal').modal('show')
-}
+$(document).ready(function(){
+    $(".fa-download").click(function(){
+        $("#loginButton").modal('show');
+    });
+});
