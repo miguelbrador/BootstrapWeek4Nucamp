@@ -59,9 +59,13 @@ footer {
   bottom: 0; }
 
 #reserveButton .modal-header {
-  background-color: #17A2B8;
+  background-color: #17A2B8; }
+
+#reserveButton h3 {
   color: #FFFFFF; }
 
-#loginButton .modal-header {
-  background-color: #901cad;
+#loginButton .login-header {
+  background-color: #901cad; }
+
+#loginButton h3 {
   color: #FFFFFF; }

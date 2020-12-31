@@ -83,14 +83,14 @@ footer {
     bottom: 0;
 }
 
-
-
 #reserveButton {
-    .modal-header{background-color:$color-teal; color:$color-white;}
+    .modal-header{background-color:$color-teal;}
+    h3{color: $color-white;}
 }
 
 #loginButton {
-    .modal-header{background-color:$color-mid; color:$color-white;}
+    .login-header{background-color:$color-mid;}
+    h3{color: $color-white;}
 }
 
 
