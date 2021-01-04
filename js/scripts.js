@@ -18,15 +18,15 @@ $(function() {
 
  
 $(document).ready(function(){
-    $(".btn").click(function(){
-        $("#reserveButton").modal('show');
+    $("#reserveButton").click(function(){
+        $(".myModal").modal('show');
     });
 });
 
 
 
 $(document).ready(function(){
-    $(".fa-download").click(function(){
-        $("#loginButton").modal('show');
+    $("#loginButton").click(function(){
+        $(".myLogin").modal('show');
     });
 });
